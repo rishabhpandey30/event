@@ -1,8 +1,6 @@
-
-  body{
-    background-image: url(bg.jpg);
-    background-repeat: no-repeat;
-  background-size: 100%;
+ body{
+    background-color: #0d0d0de3;
+    
 
 }
 section{
@@ -12,7 +10,7 @@ section{
 .heading{
     padding-bottom: 1.5rem;
     border-bottom: .2rem solid rgba(255, 255, 255, 0.479);
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     color: rgba(217, 248, 238, 0.902);
     text-transform: capitalize;
     margin-bottom: 1.6rem;
@@ -23,13 +21,15 @@ section{
     grid-template-columns: repeat(auto-fit,minmax(20rem , .5fr));
     align-items: flex-start;
     justify-content: center;
+    margin-left: .7rem;
 }
 .games .box-container .thumb{
     width: 100%;
     border-radius: .5rem;
     height: 100%;
     object-fit: cover;
-    opacity: 0.43;
+    opacity: 0.45;
+
 }
 
 .card {
@@ -152,17 +152,14 @@ section{
     width: 80%;
     line-height: 1.7rem;
   }
-  .bt{
-    color: white;
-    font-family: 'Nunito Sans', sans-serif;
-  }
+  
   button {
-    width: 160px;
-    height: 40px;
+    width: 110px;
+    height: 34px;
     cursor: pointer;
     color: #ffffff;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: .8rem;
     border-radius: 1rem;
     border: none;
     position: relative;
@@ -170,20 +167,21 @@ section{
     transition: 0.1s;
   }
   .bt{
-    font-size: 1rem;
+    font-size: .8rem;
     color: #fff;
     margin-top: 1rem;
     text-transform: capitalize;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
   }
   button::after {
     content: '';
     width: 100%;
     height: 100%;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(186, 96, 181) 17.8%, rgb(97, 230, 234) 100.2% );
-    filter: blur(15px);
+    filter: blur(10px);
     z-index: -1;
     position: absolute;
     left: 0;
